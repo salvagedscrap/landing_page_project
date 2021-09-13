@@ -1,0 +1,176 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2,
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+#header-text {
+  font-size: 19px;
+  color: #e5e7eb;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+ul {
+  display: flex;
+  margin-left: auto;
+  list-style-type: none;
+  list-style: none;
+  color: #e5e7eb;
+  margin-right: 10px;
+}
+
+img {
+  width: 80%;
+  border-radius: 10px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-radius: 0%;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  background-color: #3882f6;
+  color: antiquewhite;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+  background-color: #1f2937;
+  margin: auto;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 70px;
+}
+
+.awesome {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+  background-color: #1f2937;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 1 0;
+}
+
+.card {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  height: 300px;
+  margin-bottom: 100px;
+  padding: 10px;
+}
+
+.thor {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #e5e7eb;
+  align-items: center;
+  padding: 100px;
+}
+.thor-description {
+  width: 70%;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.thor-sign {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  align-self: flex-end;
+  gap: 50px;
+  margin-right: 100px;
+}
+
+.info-header {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  justify-content: center;
+}
+
+.fsign {
+  display: flex;
+  flex-direction: column;
+  background-color: #3882f6;
+  width: 80%;
+  align-items: flex-start;
+  padding: 10px;
+  margin: 10px;
+  justify-content: flex-start;
+  border: solid 1px black;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+}
+.footerbutton {
+  margin-left: auto;
+}
+.fcopyright {
+  background-color: #1f2937;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
